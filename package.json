@@ -1,0 +1,26 @@
+{
+  "name": "languagenpm",
+  "version": "0.1.0",
+  "description": "A small library providing managing language method for api and frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npvinhthai/languagenpm.git"
+  },
+  "keywords": [
+    "language"
+  ],
+  "author": "Andrew Nguyen <npvinhthai@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npvinhthai/languagenpm/issues"
+  },
+  "homepage": "https://github.com/npvinhthai/languagenpm#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
