@@ -28,3 +28,9 @@ const objReplace = {keyword1: 'hello', keyword2: 'world'};
 
 const result = langPacks.vi.get(key, objReplace);
 
+#4 json language sample
+======
+
+{
+  "HELLO":"Hello {username}. Your last login on: {lastLogin}"
+}
