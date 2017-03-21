@@ -24,7 +24,7 @@ langPacks.vi.importJSON('path to json file');
 
 const key = 'HELLO';
 
-const objReplace = {keyword1: 'hello', keyword2: 'world'};
+const objReplace = {username: 'Andrew', lastLogin: '03/21/2017'};
 
 const result = langPacks.vi.get(key, objReplace);
 

@@ -23,7 +23,7 @@ Lang.prototype.get = function (code, params) {
         let result = this.phrase[code];
         result = result.replace(/{[^{}]+}/g, function (key) {
             return params[key.replace(/[{}]+/g, "")] || "";
-        });
+        });		
         return result;
     } catch (e) {
         console.log("langpackage - reading error. Check phrase '" + code + "'");
