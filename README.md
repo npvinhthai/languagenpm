@@ -1,26 +1,22 @@
 # languagenpm
-Alt-H1
 ======
 
 node js language util module
 
-##1 load libs
-Alt-H2
+#1 load libs
 ======
 
 const langPackage = require('languagenpm');
 const langPacks = {};
 
-##2 init language
-Alt-H2
+#2 init language
 ======
 
 langPacks.vi = new langPackage();
 langPacks.en = new langPackage();
 langPacks.vi.importJSON('path to json file');
 
-##3 use
-Alt-H2
+#3 use
 ======
 
 const key = 'HELLO';
